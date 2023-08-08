@@ -1,0 +1,118 @@
+Monodora_myristica-COU_1031	centre	Cameroon
+Anonidium_manii-COU_1053	na	
+Duguetia_staudtii-COU_1014	na	
+Guatteria_jefensis-MAA_9553	na	
+Anaxagorea_crassipetala-MAA_9408	na	
+Annona_glabra-CHA_467	na	
+Fissistigma_sp-COU_827	na	
+Uvaria_grandiflora-COU_838	na	
+Desmos_chinensis-COU_839	na	
+Friesodielsia_excisa-SAU_177	na	
+Uvariodendron_citriodorum-SOS_2219	centre	Cameroon
+Monanthotaxis_congoensis-COU_1018	na	Cameroon
+Mischogyne_gabonensis-COU_1033	centre	Cameroon
+Greenwayodendron_suaveolens-COU_746	na	Gabon
+Isolona_pilosa-MOU_1632	centre	Gabon
+Uvariastrum_pierreanum-JON_7190	west	Guinea
+Uvariopsis_solheidi_var_letestui-COU_550	centre	Gabon
+Monodora_tenuifolia-COU_1218	centre	Cameroon
+Uvariopsis_submontana-COU_1059	centre	Cameroon
+Uvariodendron_mossambicense-MEN_2558	east	Zambia
+Uvariodendron_angustifolium-JON_4368	west	Guinea
+Asteranthe_lutea-DAG_51	east	Tanzania
+Uvariodendron_connivens-COU_1016	centre	Cameroon
+Isolona_perrieri-RAN_366	mada	Madagascar
+Mischogyne_iddii-DAG_24	east	Tanzania
+Monodora_junodii-COU_88	east	Tanzania
+Dennettia_tripetala-THO_5661	centre	Cameroon
+Monodora_stenopetala-BRU_8965	east	Malawi
+Isolona_zenkeri-COU_552	centre	Gabon
+Uvariodendron_mbagoi-DAG_39	east	Tanzania
+Dennettia_tripetala-HAL_43276	west	Ghana
+Eupomatia_laurina-DIV033	na	
+Monodora_tenuifolia-BUR_1798	west	Ghana
+Isolona_capuronii-CAP_8941_P	mada	Madagascar
+Uvariodendron_kirkii-DAG_09	east	Tanzania
+Uvariodendron_usambarense-DAG_34	east	Tanzania
+Uvariopsis_guineensis_var_guineensis-WIL_3811	west	Liberia
+Uvariodendron_calophyllum-MER_1385	west	Ghana
+Uvariodendron_gorgonis-DAG_38	east	Tanzania
+Uvariodendron_schmidtii-LUK_4717	east	Kenya
+Uvariastrum_hexaloboides-NKH	east	Zambia
+Monodora_undulata-COU_1061	centre	Cameroon
+Uvariopsis_noldeae-NOL_576	centre	Angola
+Uvariastrum_germainii-EVR_5064	centre	RDC
+Uvariopsis_zenkeri-COU_707	centre	Cameroon
+Hexalobus_monopetalus-LAW_5461	west	Senegal
+Uvariastrum_insculptum-WHE_85	centre	Cameroon
+Isolona_congolana-COU_1054	centre	Cameroon
+Isolona_heinsenii-COU_10	east	Tanzania
+Hexalobus_bussei-BOS_5370	centre	Cameroon
+Isolona_campanulata-MUN_6	west	Ivory Coast
+Monodora_hastipetala-COU_44	east	Tanzania
+Monodora_grandidieri-DAG_26	east	Tanzania
+Isolona_pleurocarpa-AND_4177	centre	Cameroon
+Isolona_campanulata-OLO_30662	centre	Cameroon
+Isolona_le-testui-SIT_3996_W	centre	RC
+Uvariodendron_molundense-COU_542	centre	Cameroon
+Uvariodendron_anisatum-SOM_95	east	Kenya
+Lukea_triciae-LUK_11205	east	Tanzania
+Hexalobus_mossambicensis-TOR_11.928	east	Mozambique
+Uvariopsis_citrata-COU_1126	centre	Gabon
+Uvariopsis_congensis_var_congensis-LAC_1384	centre	Gabon
+Uvariodendron_pilosicarpum-VAL_2540	centre	Cameroon
+Uvariopsis_dioica-COU_654	centre	Cameroon
+Uvariopsis_bakeriana-COU_1015	centre	Cameroon
+Mischogyne_elliotiana_var_sericea-DEI_3015	west	Sierra Leone
+Uvariodendron_occidentalis-KOU_1487	west	Ivory Coast
+Monodora_zenkeri-BRE_2747	centre	Cameroon
+Monodora_crispata-WIL_867	west	Ivory Coast
+Hexalobus_salicifolius-SOS_2294	centre	Gabon
+Asteranthe_asterias_subsp_triangularis-DAG_10	east	Tanzania
+Monodora_undulata-JON_7637_W	west	Guinea
+Monocyclanthus_vignei-ENT_1831	west	Ghana
+Isolona_cauliflora-DAG_44	east	Tanzania
+Monodora_minor-COU_55	east	Tanzania
+Ophrypetalum_odoratum-COU_82	east	Tanzania
+Uvariastrum_pierreanum-COU_680	centre	Gabon
+Monodora_myristica-HAW_93	west	Ghana
+Uvariodendron_dzomboense-LUK_1654	east	Kenya
+Uvariopsis_solheidi_var_solheidi-COU_856	centre	Cameroon
+Uvariodendron_calophyllum-COU_999	centre	Cameroon
+Isolona_lebrunii-BAM_131	centre	RDC
+Uvariodendron_pycnophyllum-COU_21	east	Tanzania
+Asteranthe_asterias_subsp_asterias-DAG_53	east	Tanzania
+Isolona_linearis-COU_102	east	Tanzania
+Uvariopsis_oligocarpa-MER_1380	west	Ghana
+Mischogyne_elliotiana_var_elliotiana-HAB_1272	west	Guinea
+Hexalobus_monopetalus-LOT_1671	east	Mozambique
+Isolona_thonneri-LET_10205	centre	Cameroon
+Isolona_deightonii-LOP_240	west	Sierra Leone
+Uvariopsis_guineensis_var_globiflora-JON_1809	west	Ghana
+Isolona_dewevrei-AND_4027	centre	Cameroon
+Uvariodendron_kimbozaense-DAG_49	east	Tanzania
+Monodora_laurentii-CAL_2126	centre	RDC
+Sanrafaelia_ruffonammari-DAG_31	east	Tanzania
+Monodora_crispata-KWA_19	centre	Cameroon
+Monodora_globiflora-COU_99	east	Tanzania
+Uvariopsis_pedunculosa-COU_1063	centre	Cameroon
+Isolona_humbertiana-SFM_5382	mada	Madagascar
+Monodora_carolinae-COU_54	east	Tanzania
+Uvariodendron_fuscum_var_fuscum-MIL_6428	centre	Cameroon
+Mischogyne_congensis-EVR_6205	centre	RDC
+Uvariopsis_congensis_var_angustifolia-WHI_3334	east	Zambia
+Monodora_angolensis-ALP_S4013	centre	
+Hexalobus_crispiflorus-COU_446	centre	Cameroon
+Isolona_cooperi-HAW_205	west	Ghana
+Uvariodendron_fuscum_var_magnificum-HAM_676	centre	Uganda
+Isolona_hexaloba-COU_561	centre	Gabon
+Uvariopsis_korupensis-LOU_1863	centre	Gabon
+Mischogyne_michelioides-BAM_4459	centre	Angola
+Uvariopsis_lovettiana-COU_97b	east	Tanzania
+Uvariastrum_zenkeri-COU_877	centre	Gabon
+Uvariodendron_fuscum_var_giganteum-COU_1206	centre	Cameroon
+Uvariopsis_etugiana-THO_4544	centre	Cameroon
+Isolona_madagascariensis-RAK_550	mada	Madagascar
+Isolona_ghesquierei-SCH_3364	mada	Madagascar
+Uvariopsis_congolana-HAL_2817	centre	Gabon
+Uvariopsis_sp_nov_Uganda-ATBP_666	centre	Uganda
