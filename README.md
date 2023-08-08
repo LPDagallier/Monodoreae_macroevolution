@@ -141,7 +141,7 @@ write.beast(tree_monod_pruned, file = "data/name_MCC_monodoreae3_monod_pruned.tr
 ```
 
 The details about the biogeographic analysis can be found here:
-[`Biogeographic analyses`](BAMM.md).
+[`Biogeographic analyses`](Biogeography_DEC.md).
 
 ### Content
 

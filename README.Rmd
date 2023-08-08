@@ -139,7 +139,7 @@ write.tree(as.phylo(tree_monod_pruned), file = "data/name_MCC_monodoreae3_monod_
 write.beast(tree_monod_pruned, file = "data/name_MCC_monodoreae3_monod_pruned.tree")
 ```
 
-The details about the biogeographic analysis can be found here: [`Biogeographic analyses`](BAMM.md).  
+The details about the biogeographic analysis can be found here: [`Biogeographic analyses`](Biogeography_DEC.md).  
 
 ### Content
 
