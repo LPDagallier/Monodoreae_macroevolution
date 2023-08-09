@@ -4,7 +4,8 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      eval = T, warning=F, message=F)
+                      eval = T, warning=F, message=F,
+                      fig.path  = "BAMM_files/")
 ```
 
 # Bayesian Analysis of Macroevolutionary Mixtures
@@ -192,9 +193,9 @@ dev.off()
 css <- credibleShiftSet(edata, expectedNumberOfShifts=1, threshold=5, set.limit = 0.95)
 css$number.distinct
 summary(css)
-plot.credibleshiftset(css, spex="netdiv", BFcriterion=5, border=F, pal="temperature")
-plot.credibleshiftset(css, spex="s", BFcriterion=5, border=F, pal="temperature")
-plot.credibleshiftset(css, spex="e", BFcriterion=5, border=F, pal="temperature")
+# plot.credibleshiftset(css, spex="netdiv", BFcriterion=5, border=F, pal="temperature")
+# plot.credibleshiftset(css, spex="s", BFcriterion=5, border=F, pal="temperature")
+# plot.credibleshiftset(css, spex="e", BFcriterion=5, border=F, pal="temperature")
 ```
 
 ### Finding the single best shift configuration

@@ -139,7 +139,7 @@ plot(postburn$logLik, type="l", main="c)", xlab="Generations",ylab="log Likeliho
 plot(postburn$N_shifts ~ postburn$generation, main="d)", xlab="Generations",ylab="Number of shifts")
 ```
 
-![](BAMM_files/figure-gfm/MCMC-convergence-traces-plots-1.png)<!-- -->
+![](BAMM_files/MCMC-convergence-traces-plots-1.png)<!-- -->
 
 Save the plot in PDF:
 
@@ -213,7 +213,7 @@ par(mfrow=c(1,1))
 plot(post_probs, xlim=c(0,8), main="", ylab="Posterior", xlab="Number of shifts")
 ```
 
-![](BAMM_files/figure-gfm/expected-n-shifts-1.png)<!-- -->
+![](BAMM_files/expected-n-shifts-1.png)<!-- -->
 
 Save the plot in PDF:
 
@@ -248,13 +248,13 @@ Speciation rate through time:
 ratesHistogram(plot.bammdata(edata, tau=0.001, spex="s", legend=T, lwd=1.5), plotBrks = TRUE, xlab = "Speciation rate")
 ```
 
-![](BAMM_files/figure-gfm/speciation-rate-1.png)<!-- -->
+![](BAMM_files/speciation-rate-1.png)<!-- -->
 
 ``` r
 axis(side = 1, at = c(0, 0.17, 0.175, 0.180, 0.185, 0.190, 0.195, 0.20, 0.205, 0.21, 0.215, 0.3),  cex.axis = 0.75, tcl = NA, mgp = c(0,  0.25, 0))
 ```
 
-![](BAMM_files/figure-gfm/speciation-rate-2.png)<!-- -->
+![](BAMM_files/speciation-rate-2.png)<!-- -->
 
 Extinction rate through time:
 
@@ -262,7 +262,7 @@ Extinction rate through time:
 ratesHistogram(plot.bammdata(edata, tau=0.001, spex="e", legend=T, lwd=1.5), plotBrks = TRUE, xlab = "Extinction rate")
 ```
 
-![](BAMM_files/figure-gfm/extinction-rate-1.png)<!-- -->![](BAMM_files/figure-gfm/extinction-rate-2.png)<!-- -->
+![](BAMM_files/extinction-rate-1.png)<!-- -->![](BAMM_files/extinction-rate-2.png)<!-- -->
 
 Net diversification rate through time:
 
@@ -270,13 +270,13 @@ Net diversification rate through time:
 ratesHistogram(plot.bammdata(edata, tau=0.001, spex="netdiv", legend=T, lwd=1.5), plotBrks = TRUE, xlab = "Net diversification rate")
 ```
 
-![](BAMM_files/figure-gfm/net-diversification-rate-1.png)<!-- -->
+![](BAMM_files/net-diversification-rate-1.png)<!-- -->
 
 ``` r
 axis(side = 1, at = c(0, 0.15, 0.155, 0.16, 0.165, 0.17, 0.175, 0.180),  cex.axis = 0.75, tcl = NA, mgp = c(0,  0.25, 0))
 ```
 
-![](BAMM_files/figure-gfm/net-diversification-rate-2.png)<!-- -->
+![](BAMM_files/net-diversification-rate-2.png)<!-- -->
 
 Save the plots in PDF:
 
@@ -332,28 +332,10 @@ summary(css)
     ##          1  0.9834254  0.9834254          0
 
 ``` r
-plot.credibleshiftset(css, spex="netdiv", BFcriterion=5, border=F, pal="temperature")
+# plot.credibleshiftset(css, spex="netdiv", BFcriterion=5, border=F, pal="temperature")
+# plot.credibleshiftset(css, spex="s", BFcriterion=5, border=F, pal="temperature")
+# plot.credibleshiftset(css, spex="e", BFcriterion=5, border=F, pal="temperature")
 ```
-
-    ## Omitted 0 plots
-
-![](BAMM_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
-
-``` r
-plot.credibleshiftset(css, spex="s", BFcriterion=5, border=F, pal="temperature")
-```
-
-    ## Omitted 0 plots
-
-![](BAMM_files/figure-gfm/unnamed-chunk-13-2.png)<!-- -->
-
-``` r
-plot.credibleshiftset(css, spex="e", BFcriterion=5, border=F, pal="temperature")
-```
-
-    ## Omitted 0 plots
-
-![](BAMM_files/figure-gfm/unnamed-chunk-13-3.png)<!-- -->
 
 ### Finding the single best shift configuration
 
@@ -375,4 +357,4 @@ best <- getBestShiftConfiguration(edata, expectedNumberOfShifts=1)
 addBAMMshifts(best, cex=2.5)}
 ```
 
-![](BAMM_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](BAMM_files/unnamed-chunk-14-1.png)<!-- -->

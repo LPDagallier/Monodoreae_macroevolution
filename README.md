@@ -108,7 +108,7 @@ viewed [here](figures/name_MCC_monodoeae3_monod_full_Annon_GTS.pdf)*
 The downstream analysis will be run only on the Monodoreae. We thus need
 to subset the Monodoreae tribe to the tree above.
 
-Subset only the Monodoreae tribe (node 126) from this dataset:
+Subset the Monodoreae tribe (node 126) from this dataset:
 
 ``` r
 library(treeio)
@@ -145,25 +145,44 @@ write.beast(tree_monod_pruned, file = "data/name_MCC_monodoreae3_monod_pruned.tr
 ```
 
 The details about the biogeographic analysis can be found here:
-[`Biogeographic analyses`](Biogeography_DEC.md).  
-\## Diversification analysis \### BAMM Bayesian Analysis of
-Macroevolutionary Mixtures. All the analysis are detailed here:
-[`BAMM`](BAMM.md).
+[`Biogeographic analyses`](Biogeography_DEC.md).
+
+## Diversification analysis
+
+### BAMM
+
+Bayesian Analysis of Macroevolutionary Mixtures. All the analysis are
+detailed here: [`BAMM`](BAMM.md).
 
 No significant rate shift detected:  
 ![Posterior probability of rate
-shifts](BAMM_files/figures/expected-n-shifts-1.png)
+shifts](BAMM_files/expected-n-shifts-1.png)
 
 The estimated **speciation** rate is constant across the time. It
 appears higher for *Uvariopsis*: ![Speciation
-rate](BAMM_files/figures/speciation-rate-1.png)
+rate](BAMM_files/speciation-rate-1.png)
 
 The estimated **extinction** rate is constant across the time:
-![Extinction rate](BAMM_files/figures/extinction-rate-1.png)
+![Extinction rate](BAMM_files/extinction-rate-1.png)
 
 The estimated **net diversification** rate is constant across the time.
 It appears higher for *Uvariopsis*: ![Net diversification
-rate](BAMM_files/figures/net-diversification-rate-1.png)
+rate](BAMM_files/net-diversification-rate-1.png)
+
+### ClaDS
+
+Species-specific diversification rate shifts. See: [‘Maliet et
+al. 2019’](http://www.nature.com/articles/s41559-019-0908-0) & [‘Maliet
+& Morlon 2022’](https://doi.org/10.1093/sysbio/syab055).
+
+All the analysis detailed here: [`ClaDS`](ClaDS.md).
+
+The branch specific speciation rate is the highest for the species-rich
+genus *Uvariopsis*, and high for the other species-rich genera
+*Isolona*, *Monodora*, and *Uvariodendron*. ![Speciation
+rate](ClaDS_files/plot-ClaDS-speciation-1.png) We observe a similar
+pattern for the extinction rate, although the values are very low:
+![Speciation rate](ClaDS_files/plot-ClaDS-extinction-1.png)
 
 ### Content
 
