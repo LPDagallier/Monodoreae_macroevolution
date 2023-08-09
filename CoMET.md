@@ -6,7 +6,8 @@
 
 ------------------------------------------------------------------------
 
-# CoMET analysis (sudden extinction) from TESS package
+# CoMET analysis (sudden extinction)
+From the [TESS R package](https://academic.oup.com/bioinformatics/article/32/5/789/1744433).
 
 ## Input data
 

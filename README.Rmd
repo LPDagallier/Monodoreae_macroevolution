@@ -202,6 +202,8 @@ With a probability of 5% to survive a mass extinction event:
 
 Summary of all the CoMET analysis:
 ![CoMET all](CoMET_files/spec-shifts-intervals-plots-all-gts-1.png)
+### RPANDA
+Results of the RPANDA analysis. All the analysis detailed here: [`RPANDA`](RPANDA.md).  
 
 ### Content
 

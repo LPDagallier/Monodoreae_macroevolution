@@ -4,7 +4,7 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      eval = T, warning=F, message=F,
+                      eval = F, warning=F, message=F,
                       fig.path  = "CoMET_files/")
 ```
 
@@ -14,9 +14,10 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ***
 
-# CoMET analysis (sudden extinction) from TESS package
-## Input data
+# CoMET analysis (sudden extinction)
+From the [TESS R package](https://academic.oup.com/bioinformatics/article/32/5/789/1744433).
 
+## Input data
 Prepare the output folder:
 ```{bash, eval = F}
 path_to_output="outputs/";
