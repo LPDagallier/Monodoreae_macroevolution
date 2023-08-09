@@ -1,0 +1,189 @@
+#NEXUS
+[R-package APE, Fri Jul  2 12:21:29 2021]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 88;
+	TAXLABELS
+		Monodora_myristica-COU_1031
+		Monodora_angolensis-ALP_S4013
+		Monodora_tenuifolia-COU_1218
+		Monodora_crispata-WIL_867
+		Monodora_laurentii-CAL_2126
+		Monodora_junodii-COU_88
+		Monodora_hastipetala-COU_44
+		Monodora_stenopetala-BRU_8965
+		Monodora_minor-COU_55
+		Monodora_zenkeri-BRE_2747
+		Monodora_globiflora-COU_99
+		Monodora_carolinae-COU_54
+		Monodora_grandidieri-DAG_26
+		Monodora_undulata-COU_1061
+		Isolona_pilosa-MOU_1632
+		Isolona_deightonii-LOP_240
+		Isolona_thonneri-LET_10205
+		Isolona_dewevrei-AND_4027
+		Isolona_perrieri-RAN_366
+		Isolona_madagascariensis-RAK_550
+		Isolona_capuronii-CAP_8941_P
+		Isolona_ghesquierei-SCH_3364
+		Isolona_humbertiana-SFM_5382
+		Isolona_heinsenii-COU_10
+		Isolona_campanulata-OLO_30662
+		Isolona_cooperi-HAW_205
+		Isolona_le-testui-SIT_3996_W
+		Isolona_cauliflora-DAG_44
+		Isolona_zenkeri-COU_552
+		Isolona_pleurocarpa-AND_4177
+		Isolona_hexaloba-COU_561
+		Isolona_congolana-COU_1054
+		Isolona_lebrunii-BAM_131
+		Isolona_linearis-COU_102
+		Uvariastrum_pierreanum-COU_680
+		Uvariastrum_hexaloboides-NKH
+		Uvariastrum_zenkeri-COU_877
+		Uvariastrum_insculptum-WHE_85
+		Uvariastrum_germainii-EVR_5064
+		Hexalobus_monopetalus-LAW_5461
+		Hexalobus_mossambicensis-TOR_11.928
+		Hexalobus_bussei-BOS_5370
+		Hexalobus_salicifolius-SOS_2294
+		Hexalobus_crispiflorus-COU_446
+		Asteranthe_lutea-DAG_51
+		Asteranthe_asterias_subsp_asterias-DAG_53
+		Uvariodendron_sp_nov_citrata-SOS_2219
+		Uvariodendron_molundense-COU_542
+		Uvariodendron_sp_nov_aff_molundense-VAL_2540
+		Uvariodendron_angustifolium-JON_4368
+		Uvariodendron_calophyllum-COU_999
+		Uvariodendron_giganteum-COU_1206
+		Uvariodendron_connivens-COU_1016
+		Uvariodendron_sp_nov_4-MEN_2558
+		Uvariodendron_gorgonis-DAG_38
+		Uvariodendron_dzomboense-LUK_1654
+		Uvariodendron_pycnophyllum-COU_21
+		Uvariodendron_schmidtii-LUK_4717
+		Uvariodendron_occidentalis-KOU_1487
+		Uvariodendron_usambarense-DAG_34
+		Uvariodendron_kirkii-DAG_09
+		Uvariodendron_sp_nov_5-DAG_49
+		Uvariodendron_anisatum-SOM_95
+		Uvariodendron_mbagoi-DAG_39
+		Uvariopsis_solheidi_var_solheidi-COU_856
+		Uvariopsis_dioica-COU_654
+		Uvariopsis_guineensis-WIL_3811
+		Uvariopsis_noldeae-NOL_576
+		Uvariopsis_congolana-HAL_2817
+		Uvariopsis_pedunculosa-COU_1063
+		Uvariopsis_zenkeri-COU_707
+		Uvariopsis_submontana-COU_1059
+		Uvariopsis_citrata-COU_1126
+		Uvariopsis_bakeriana-COU_1015
+		Uvariopsis_korupensis-LOU_1863
+		Uvariopsis_etugiana-THO_4544
+		Uvariopsis_sp_nov_1-MER_1380
+		Uvariopsis_congensis-LAC_1384
+		Uvariopsis_lovettiana-COU_97b
+		Uvariopsis_sp_nov_2-ATBP_666
+		Uvariopsis_tripetala-THO_5661
+		Monocyclanthus_vignei-ENT_1831
+		Mischogyne_gabonensis-COU_1033
+		Mischogyne_iddii-DAG_24
+		Mischogyne_elliotiana_var_elliotiana-HAB_1272
+		Mischogyne_congensis-EVR_6205
+		Mischogyne_michelioides-BAM_4459
+		Lukea_gn_nov-LUK_11205
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Monodora_myristica-COU_1031,
+		2	Monodora_angolensis-ALP_S4013,
+		3	Monodora_tenuifolia-COU_1218,
+		4	Monodora_crispata-WIL_867,
+		5	Monodora_laurentii-CAL_2126,
+		6	Monodora_junodii-COU_88,
+		7	Monodora_hastipetala-COU_44,
+		8	Monodora_stenopetala-BRU_8965,
+		9	Monodora_minor-COU_55,
+		10	Monodora_zenkeri-BRE_2747,
+		11	Monodora_globiflora-COU_99,
+		12	Monodora_carolinae-COU_54,
+		13	Monodora_grandidieri-DAG_26,
+		14	Monodora_undulata-COU_1061,
+		15	Isolona_pilosa-MOU_1632,
+		16	Isolona_deightonii-LOP_240,
+		17	Isolona_thonneri-LET_10205,
+		18	Isolona_dewevrei-AND_4027,
+		19	Isolona_perrieri-RAN_366,
+		20	Isolona_madagascariensis-RAK_550,
+		21	Isolona_capuronii-CAP_8941_P,
+		22	Isolona_ghesquierei-SCH_3364,
+		23	Isolona_humbertiana-SFM_5382,
+		24	Isolona_heinsenii-COU_10,
+		25	Isolona_campanulata-OLO_30662,
+		26	Isolona_cooperi-HAW_205,
+		27	Isolona_le-testui-SIT_3996_W,
+		28	Isolona_cauliflora-DAG_44,
+		29	Isolona_zenkeri-COU_552,
+		30	Isolona_pleurocarpa-AND_4177,
+		31	Isolona_hexaloba-COU_561,
+		32	Isolona_congolana-COU_1054,
+		33	Isolona_lebrunii-BAM_131,
+		34	Isolona_linearis-COU_102,
+		35	Uvariastrum_pierreanum-COU_680,
+		36	Uvariastrum_hexaloboides-NKH,
+		37	Uvariastrum_zenkeri-COU_877,
+		38	Uvariastrum_insculptum-WHE_85,
+		39	Uvariastrum_germainii-EVR_5064,
+		40	Hexalobus_monopetalus-LAW_5461,
+		41	Hexalobus_mossambicensis-TOR_11.928,
+		42	Hexalobus_bussei-BOS_5370,
+		43	Hexalobus_salicifolius-SOS_2294,
+		44	Hexalobus_crispiflorus-COU_446,
+		45	Asteranthe_lutea-DAG_51,
+		46	Asteranthe_asterias_subsp_asterias-DAG_53,
+		47	Uvariodendron_sp_nov_citrata-SOS_2219,
+		48	Uvariodendron_molundense-COU_542,
+		49	Uvariodendron_sp_nov_aff_molundense-VAL_2540,
+		50	Uvariodendron_angustifolium-JON_4368,
+		51	Uvariodendron_calophyllum-COU_999,
+		52	Uvariodendron_giganteum-COU_1206,
+		53	Uvariodendron_connivens-COU_1016,
+		54	Uvariodendron_sp_nov_4-MEN_2558,
+		55	Uvariodendron_gorgonis-DAG_38,
+		56	Uvariodendron_dzomboense-LUK_1654,
+		57	Uvariodendron_pycnophyllum-COU_21,
+		58	Uvariodendron_schmidtii-LUK_4717,
+		59	Uvariodendron_occidentalis-KOU_1487,
+		60	Uvariodendron_usambarense-DAG_34,
+		61	Uvariodendron_kirkii-DAG_09,
+		62	Uvariodendron_sp_nov_5-DAG_49,
+		63	Uvariodendron_anisatum-SOM_95,
+		64	Uvariodendron_mbagoi-DAG_39,
+		65	Uvariopsis_solheidi_var_solheidi-COU_856,
+		66	Uvariopsis_dioica-COU_654,
+		67	Uvariopsis_guineensis-WIL_3811,
+		68	Uvariopsis_noldeae-NOL_576,
+		69	Uvariopsis_congolana-HAL_2817,
+		70	Uvariopsis_pedunculosa-COU_1063,
+		71	Uvariopsis_zenkeri-COU_707,
+		72	Uvariopsis_submontana-COU_1059,
+		73	Uvariopsis_citrata-COU_1126,
+		74	Uvariopsis_bakeriana-COU_1015,
+		75	Uvariopsis_korupensis-LOU_1863,
+		76	Uvariopsis_etugiana-THO_4544,
+		77	Uvariopsis_sp_nov_1-MER_1380,
+		78	Uvariopsis_congensis-LAC_1384,
+		79	Uvariopsis_lovettiana-COU_97b,
+		80	Uvariopsis_sp_nov_2-ATBP_666,
+		81	Uvariopsis_tripetala-THO_5661,
+		82	Monocyclanthus_vignei-ENT_1831,
+		83	Mischogyne_gabonensis-COU_1033,
+		84	Mischogyne_iddii-DAG_24,
+		85	Mischogyne_elliotiana_var_elliotiana-HAB_1272,
+		86	Mischogyne_congensis-EVR_6205,
+		87	Mischogyne_michelioides-BAM_4459,
+		88	Lukea_gn_nov-LUK_11205
+	;
+	TREE * UNTITLED = [&R] ((((((1:4.631315126,2:4.631315125):0.2117643646,(3:4.708842627,(4:4.509387835,5:4.509387835):0.199454792):0.1342368626):0.5232175106,(((6:2.106239597,7:2.106239597):2.848971485,((((8:4.060420651,9:4.060420651):0.1975880149,10:4.258008666):0.1653985791,(11:2.842511925,12:2.842511925):1.58089532):0.2881275152,13:4.71153476):0.2436763215):0.2385592916,14:5.193770373):0.1725266276):9.699213963,(((((15:4.506563353,16:4.506563353):0.6784661848,(17:1.09781172,18:1.09781172):4.087217817):0.5234039971,(((((19:1.360174446,20:1.360174446):0.1063518008,(21:1.159626553,22:1.159626553):0.3068996936):0.3443217375,23:1.810847984):2.92151157,24:4.732359554):0.6090661117,((25:4.238535014,26:4.238535013):0.8681292339,(27:4.61232166,28:4.61232166):0.4943425869):0.2347614183):0.3670078688):0.838513,(((29:3.976483658,30:3.976483658):1.374246878,31:5.350730536):0.6506537742,(32:5.453290224,33:5.453290224):0.5480940861):0.545562224):2.67668512,34:9.223631654):5.841879309):7.991202823,(((((35:3.549402826,(36:3.354196028,37:3.354196028):0.1952067978):0.9863221575,38:4.535724983):0.4928691593,39:5.028594142):8.225181669,((40:4.229582745,41:4.229582745):1.679831397,(42:4.665950836,(43:3.170978303,44:3.170978303):1.494972533):1.243463306):7.344361669):7.418331311,(45:3.412693952,46:3.412693952):17.25941317):2.384606664):1.979859233,(((((((47:3.354971509,(48:2.503765308,49:2.503765308):0.8512062016):0.713009545,((50:3.004004874,(51:2.115920199,52:2.115920199):0.8880846758):0.7270987125,53:3.731103587):0.3368774675):0.5126521311,(((54:3.961462984,((55:3.056407051,(56:2.811237185,57:2.811237185):0.2451698654):0.3514929215,58:3.407899972):0.5535630116):0.3173904571,59:4.278853441):0.143604656,60:4.422458097):0.1581750882):1.931566029,((61:3.034410619,62:3.034410619):1.456490406,63:4.490901025):2.021298189):1.165845384,64:7.678044599):4.654175767,((((((((((65:1.251873096,66:1.251873096):0.1704829112,67:1.422356007):0.2190139869,(68:1.189617589,69:1.189617589):0.4517524054):0.7720551529,70:2.413425147):0.2913718382,71:2.704796985):0.2778007303,(72:1.631563386,((73:1.116089807,74:1.116089807):0.2211198167,75:1.337209623):0.2943537627):1.35103433):0.489851519,76:3.472449235):0.2598101235,77:3.732259358):0.8502304163,((78:3.675411181,79:3.675411181):0.1919855049,80:3.867396686):0.7150930883):1.316546074,(81:4.600823915,82:4.600823915):1.298211934):6.433184518):12.06765185,((((83:4.501279068,84:4.501279068):0.3478958861,85:4.849174954):1.500558755,(86:5.421446745,87:5.421446745):0.9282869637):13.63606151,88:19.98579521):4.414077):0.6367008043);
+END;

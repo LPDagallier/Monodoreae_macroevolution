@@ -189,10 +189,10 @@ The net diversification rate is similar to the speciation rate.
 Results of the CoMET analysis. All the analysis detailed here: [`CoMET`](CoMET.md).  
 
 With a probability of 5% to survive a mass extinction event:  
-![CoMET - 5%](CoMET_files/figures/res-CoMET-5pc-1.png)
+![CoMET - 5%](CoMET_files/res-CoMET-5pc-1.png)
 
 With a probability of 5% to survive a mass extinction event:  
-![CoMET 30%](CoMET_files/figures/res-CoMET-30pc-1.png)
+![CoMET 30%](CoMET_files/res-CoMET-30pc-1.png)
 
 - Extinction rate is low, no rate shift detected
 - Mass extinction:
@@ -200,6 +200,8 @@ With a probability of 5% to survive a mass extinction event:
   - the analysis *substantially* detects a ME event in case the *a priori* probability of survival to a ME event is 30%
 - Significant speciation rate shift detected ~2 My ago  
 
+Summary of all the CoMET analysis:
+![CoMET all](CoMET_files/spec-shifts-intervals-plots-all-gts-1.png)
 
 ### Content
 
