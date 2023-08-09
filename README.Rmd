@@ -205,22 +205,30 @@ Summary of all the CoMET analysis:
 ### RPANDA
 Results of the RPANDA analysis. All the analysis detailed here: [`RPANDA`](RPANDA.md).  
 
-### Content
+#### Best time dependent model
+The best fitting model appear to be the Pure Birth model with λ = 0.17495781 (AICc = 473.5).
+![BConst](RPANDA_files/BConst-1.png)
 
-This repository is structured as follow:
+#### Best temperature dependent model
 
-- [`data/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/master/data):
-contains all raw data required to perform analyses
+Temperature data from [Condamine et al. 2015](https://doi.org/10.1186/s12862-015-0347-8).
 
-- [`analyses/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/{{branch}}/analyses/):
-contains R scripts to run each step of the workflow
+The [best fitting model](RPANDA.md#Find-the-best-model-1) appear to be the Pure Birth model with speciation varying exponentially with temperatures: λ = 0.1255 and α = 0.0829 (AICc = 472.4, ΔAICc = 1.07).
 
-- [`outputs/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/{{branch}}/outputs):
-contains all the results created during the workflow
+![BTemp](RPANDA_files/temp-plot-best-model-2.png)
 
-- [`figures/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/{{branch}}/figures):
-contains all the figures created during the workflow
+#### Best elevation dependent model
+##### Elevation data
+Paleo-elevation data retrieved from paleo-Digital Elevation Models 'paleoDEMs' from  [PaleoMaps](https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/) with the `chronosphere` package.  
 
+First, I retrieved the convex envelop of the distribution of the Monodoreae tribe (from geo-referenced specimens). I then computed the mean elevation of the African land within this envelope. I did so for the current land elevation and for the past land elevation at times 5, 10, 15 20, 25 and 30 Myr before present. The PaleMap dataset doesn't have the paleoDEMs between these times. The geographic precision is 1 degree and the altitude precision is 40 meters. See [PaleoElevation](PaleoElevation.md) for the details.  
+
+The [best fitting model](RPANDA.md#Find-the-best-model-2) appear to be the Pure Birth model with speciation varying exponentially with elevation: λ = 0.001725 and α = 0.0066 (AICc = 469.3, ΔAICc = 2.26).
+
+![BElev](RPANDA_files/elev-plot-best-model-2.png)
+
+##### C4 fraction
+Some best fitting models retrieve extinction rates higher than speciation rates (leading to negative net diversification rates). These models are unrealistic and are discarded. See [RPANDA_C4](RPANDA_C4.md) and the main text in the article.
 
 
 
