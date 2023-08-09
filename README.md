@@ -184,6 +184,25 @@ rate](ClaDS_files/plot-ClaDS-speciation-1.png) We observe a similar
 pattern for the extinction rate, although the values are very low:
 ![Speciation rate](ClaDS_files/plot-ClaDS-extinction-1.png)
 
+### RevBayes
+
+#### Branch-Specific Diversification Rate Estimation (BSDR)
+
+See [`RevBayes_BSDR`](RevBayes_BSDR.md).
+
+With RevBayes, we find a similar result than ClaDS: speciation rate is
+the highest for the species-rich genus *Uvariopsis*, and high for the
+other species-rich genera *Isolona*, *Monodora*, and *Uvariodendron*.
+Note that for *Isolona* and *Monodora*, the speciation rate is
+particularly high at the root of the genera.  
+![Speciation rate](RevBayes_BSDR_files/plot-speciation-1.png)
+
+The extinction rate is very low.  
+![Extinction rate](RevBayes_BSDR_files/plot-extinction-1.png)
+
+The net diversification rate is similar to the speciation rate.  
+![Net diversification rate](RevBayes_BSDR_files/plot-netdiv-1.png)
+
 ### Content
 
 This repository is structured as follow:

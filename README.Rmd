@@ -172,6 +172,33 @@ The branch specific speciation rate is the highest for the species-rich genus *U
 We observe a similar pattern for the extinction rate, although the values are very low:
 ![Speciation rate](ClaDS_files/plot-ClaDS-extinction-1.png)
 
+### RevBayes
+#### Branch-Specific Diversification Rate Estimation (BSDR)
+See [`RevBayes_BSDR`](RevBayes_BSDR.md).  
+
+With RevBayes, we find a similar result than ClaDS: speciation rate is the highest for the species-rich genus *Uvariopsis*, and high for the other species-rich genera *Isolona*, *Monodora*, and *Uvariodendron*. Note that for *Isolona* and *Monodora*, the speciation rate is particularly high at the root of the genera.  
+![Speciation rate](RevBayes_BSDR_files/plot-speciation-1.png)
+ 
+The extinction rate is very low.  
+![Extinction rate](RevBayes_BSDR_files/plot-extinction-1.png)
+
+The net diversification rate is similar to the speciation rate.  
+![Net diversification rate](RevBayes_BSDR_files/plot-netdiv-1.png)
+
+### CoMET
+Results of the CoMET analysis. All the analysis detailed here: [`CoMET`](CoMET.md).  
+
+With a probability of 5% to survive a mass extinction event:  
+![CoMET - 5%](CoMET_files/figures/res-CoMET-5pc-1.png)
+
+With a probability of 5% to survive a mass extinction event:  
+![CoMET 30%](CoMET_files/figures/res-CoMET-30pc-1.png)
+
+- Extinction rate is low, no rate shift detected
+- Mass extinction:
+  - the analysis strongly detects (2lnBF>6) a ME event 6-7 My ago in case the *a priori* probability of survival to a ME event is 5% 
+  - the analysis *substantially* detects a ME event in case the *a priori* probability of survival to a ME event is 30%
+- Significant speciation rate shift detected ~2 My ago  
 
 
 ### Content
