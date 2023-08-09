@@ -4,7 +4,7 @@
 # Macroevolution of the Monodoreae
 
 **Author**: Léo-Paul Dagallier  
-**Last update**: 2023-08-08
+**Last update**: 2023-08-09
 
 ------------------------------------------------------------------------
 
@@ -12,7 +12,10 @@
 <!-- badges: end -->
 
 This repository presents the biogeographic and diversification analyses
-of the Monodoreae (Annonaceae family).
+of the Monodoreae (Annonaceae family) carried out in Dagallier,
+Condamine & Couvreur, in press.
+
+Feel free to open an issue if you have any question.
 
 If you make use of scripts published in this repository, please cite:
 
@@ -99,7 +102,8 @@ gg
 dev.off()
 ```
 
-![](figures/name_MCC_monodoeae3_monod_full_Annon_GTS.pdf)
+![](README_files/MCC-Monodoreae-3-full-plot-GTS.png) *This figure can be
+viewed [here](figures/name_MCC_monodoeae3_monod_full_Annon_GTS.pdf)*
 
 The downstream analysis will be run only on the Monodoreae. We thus need
 to subset the Monodoreae tribe to the tree above.
@@ -141,7 +145,25 @@ write.beast(tree_monod_pruned, file = "data/name_MCC_monodoreae3_monod_pruned.tr
 ```
 
 The details about the biogeographic analysis can be found here:
-[`Biogeographic analyses`](Biogeography_DEC.md).
+[`Biogeographic analyses`](Biogeography_DEC.md).  
+\## Diversification analysis \### BAMM Bayesian Analysis of
+Macroevolutionary Mixtures. All the analysis are detailed here:
+[`BAMM`](BAMM.md).
+
+No significant rate shift detected:  
+![Posterior probability of rate
+shifts](BAMM_files/figures/expected-n-shifts-1.png)
+
+The estimated **speciation** rate is constant across the time. It
+appears higher for *Uvariopsis*: ![Speciation
+rate](BAMM_files/figures/speciation-rate-1.png)
+
+The estimated **extinction** rate is constant across the time:
+![Extinction rate](BAMM_files/figures/extinction-rate-1.png)
+
+The estimated **net diversification** rate is constant across the time.
+It appears higher for *Uvariopsis*: ![Net diversification
+rate](BAMM_files/figures/net-diversification-rate-1.png)
 
 ### Content
 
