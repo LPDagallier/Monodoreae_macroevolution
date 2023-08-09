@@ -203,18 +203,73 @@ The extinction rate is very low.
 The net diversification rate is similar to the speciation rate.  
 ![Net diversification rate](RevBayes_BSDR_files/plot-netdiv-1.png)
 
-### Content
+### CoMET
 
-This repository is structured as follow:
+Results of the CoMET analysis. All the analysis detailed here:
+[`CoMET`](CoMET.md).
 
-- [`data/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/master/data):
-  contains all raw data required to perform analyses
+With a probability of 5% to survive a mass extinction event:  
+![CoMET - 5%](CoMET_files/res-CoMET-5pc-1.png)
 
-- [`analyses/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/%7B%7Bbranch%7D%7D/analyses/):
-  contains R scripts to run each step of the workflow
+With a probability of 5% to survive a mass extinction event:  
+![CoMET 30%](CoMET_files/res-CoMET-30pc-1.png)
 
-- [`outputs/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/%7B%7Bbranch%7D%7D/outputs):
-  contains all the results created during the workflow
+- Extinction rate is low, no rate shift detected
+- Mass extinction:
+  - the analysis strongly detects (2lnBF\>6) a ME event 6-7 My ago in
+    case the *a priori* probability of survival to a ME event is 5%
+  - the analysis *substantially* detects a ME event in case the *a
+    priori* probability of survival to a ME event is 30%
+- Significant speciation rate shift detected \~2 My ago
 
-- [`figures/`](https://github.com/LPDagallier/Monodoreae_macroevoluton/tree/%7B%7Bbranch%7D%7D/figures):
-  contains all the figures created during the workflow
+Summary of all the CoMET analysis: ![CoMET
+all](CoMET_files/spec-shifts-intervals-plots-all-gts-1.png) \### RPANDA
+Results of the RPANDA analysis. All the analysis detailed here:
+[`RPANDA`](RPANDA.md).
+
+#### Best time dependent model
+
+The best fitting model appear to be the Pure Birth model with λ =
+0.17495781 (AICc = 473.5). ![BConst](RPANDA_files/BConst-1.png)
+
+#### Best temperature dependent model
+
+Temperature data from [Condamine et
+al. 2015](https://doi.org/10.1186/s12862-015-0347-8).
+
+The [best fitting model](RPANDA.md#Find-the-best-model-1) appear to be
+the Pure Birth model with speciation varying exponentially with
+temperatures: λ = 0.1255 and α = 0.0829 (AICc = 472.4, ΔAICc = 1.07).
+
+![BTemp](RPANDA_files/temp-plot-best-model-2.png)
+
+#### Best elevation dependent model
+
+##### Elevation data
+
+Paleo-elevation data retrieved from paleo-Digital Elevation Models
+‘paleoDEMs’ from
+[PaleoMaps](https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/)
+with the `chronosphere` package.
+
+First, I retrieved the convex envelop of the distribution of the
+Monodoreae tribe (from geo-referenced specimens). I then computed the
+mean elevation of the African land within this envelope. I did so for
+the current land elevation and for the past land elevation at times 5,
+10, 15 20, 25 and 30 Myr before present. The PaleMap dataset doesn’t
+have the paleoDEMs between these times. The geographic precision is 1
+degree and the altitude precision is 40 meters. See
+[PaleoElevation](PaleoElevation.md) for the details.
+
+The [best fitting model](RPANDA.md#Find-the-best-model-2) appear to be
+the Pure Birth model with speciation varying exponentially with
+elevation: λ = 0.001725 and α = 0.0066 (AICc = 469.3, ΔAICc = 2.26).
+
+![BElev](RPANDA_files/elev-plot-best-model-2.png)
+
+##### C4 fraction
+
+Some best fitting models retrieve extinction rates higher than
+speciation rates (leading to negative net diversification rates). These
+models are unrealistic and are discarded. See [RPANDA_C4](RPANDA_C4.md)
+and the main text in the article.
