@@ -227,7 +227,7 @@ The [best fitting model](RPANDA.md#Find-the-best-model-2) appear to be the Pure 
 
 ![BElev](RPANDA_files/elev-plot-best-model-2.png)
 
-##### C4 fraction
+#### C4 fraction
 Some best fitting models retrieve extinction rates higher than speciation rates (leading to negative net diversification rates). These models are unrealistic and are discarded. See [RPANDA_C4](RPANDA_C4.md) and the main text in the article.
 
 

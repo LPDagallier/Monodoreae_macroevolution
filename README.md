@@ -267,7 +267,7 @@ elevation: λ = 0.001725 and α = 0.0066 (AICc = 469.3, ΔAICc = 2.26).
 
 ![BElev](RPANDA_files/elev-plot-best-model-2.png)
 
-##### C4 fraction
+#### C4 fraction
 
 Some best fitting models retrieve extinction rates higher than
 speciation rates (leading to negative net diversification rates). These
