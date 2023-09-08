@@ -19,7 +19,8 @@ Feel free to open an issue if you have any question.
 
 If you make use of scripts published in this repository, please cite:
 
-> **in press**
+> **Dagallier L-PMJ, Condamine FL, Couvreur TLP (2023) A sequential diversification with Miocene extinction and Pliocene speciation linked to mountain uplift explains the diversity of the African rain forest clade Monodoreae (Annonaceae). Annals of Botany: mcad130. [https://doi.org/10.1093/aob/mcad130](https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcad130/7259080?utm_source=authortollfreelink&utm_campaign=aob&utm_medium=email&guestAccessKey=4f98ad38-aba4-4dd6-a097-a7f71e0d92f3)**
+
 
 ## Time-calibrate phylogenetic tree
 
