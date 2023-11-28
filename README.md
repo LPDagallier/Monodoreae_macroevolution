@@ -4,7 +4,7 @@
 # Macroevolution of the Monodoreae
 
 **Author**: Léo-Paul Dagallier  
-**Last update**: 2023-08-09
+**Last update**: 2023-11-28
 
 ------------------------------------------------------------------------
 
@@ -12,8 +12,8 @@
 <!-- badges: end -->
 
 This repository presents the biogeographic and diversification analyses
-of the Monodoreae (Annonaceae family) carried out in Dagallier,
-Condamine & Couvreur, in press.
+of the Monodoreae (Annonaceae family) carried out in [Dagallier,
+Condamine & Couvreur, 2023](https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcad130/7259080?utm_source=authortollfreelink&utm_campaign=aob&utm_medium=email&guestAccessKey=4f98ad38-aba4-4dd6-a097-a7f71e0d92f3).
 
 Feel free to open an issue if you have any question.
 
