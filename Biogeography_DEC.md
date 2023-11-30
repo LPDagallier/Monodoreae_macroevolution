@@ -125,7 +125,7 @@ length(states_list_0based_NEW)     # now 148
 
 ## DEC analysis
 
-Run DEC analysis.
+Run DEC analysis (see http://phylo.wikidot.com/biogeobears#script).
 
 Export the result table to .csv file:
 
