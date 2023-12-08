@@ -42,6 +42,8 @@ path_to_disp_multip_fn <- "data/Biogeo_DEC/dispersal_multipliers"
 path_to_areas_adj_fn <- "data/Biogeo_DEC/areas_adjacency"
 ```
 
+⚠️ For the tree used as input in BioGeoBEARS, it is better if the tree has always been manipulated in R as a "phylo" object. Especially if subsetting the tree at a node with `treeio::tree_subset`, make sure to always manipulate the tree as a "phylo" object and not as a "treedata" object (with e.g. `as.phylo()` function, or subsetting the treedata with `tree@phylo`). From my experience, it seems `treeio::tree_subset` messes the tree structure in such a way that `BioGeoBEARS::prt()` (used to represent the tree as a tabular object in BioGeoBEARS) do not correctly associate the node number with the correct tip.
+
 ## Read the tree
 
 ``` r
